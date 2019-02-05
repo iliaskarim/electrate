@@ -1,23 +1,20 @@
 {
   "name": "electrate",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A React Native Electron application starterplate",
   "main": "app/main.js",
   "scripts": {
-    "postinstall": "install-app-deps",
-    "build": "gulp build",
     "start": "gulp start",
     "release": "gulp release"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/iliaskarim/electrate",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "React",
+    "app",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Ilias Karim",
   "license": "CC0-1.0",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -39,7 +36,7 @@
     "react-dom": "^16.2.0"
   },
   "build": {
-    "appId": "com.karmadust.electrate",
+    "appId": "com.iliaskarim.electrate",
     "files": [
       "app/**/*",
       "node_modules/**/*",
